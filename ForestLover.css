@@ -1,0 +1,72 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: rgb(213, 255, 185) ; }
+  .navbar { background-color: #333; overflow: hidden; }
+  .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+  .navbar a:hover { background-color: #ddd; color: black; }
+  .welcome-section { padding: 50px; text-align: start; background-color: rgb(213, 255, 185); color: grey; }
+
+h1 {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+ }
+ h2 {
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+    
+
+ .productlist {
+    float: left;
+    list-style-type: none;
+  }
+#main {
+    height: 500px;
+    width: 100%;
+    float: none;
+    margin: auto;
+    border: 1px solid rgba(10, 6, 6, 0)
+}
+#map {
+    height: 500px;
+    width: 60%;
+    float: inline-end;
+    position: absolute;
+    top: 150px;
+    right: 15px;
+}
+
+
+#content {
+    height: 50%;
+    width: 40%;
+    float: left;
+    margin: auto;
+    border: 1px solid rgba(8, 6, 10, 0);
+    background-color: greenyellow;
+}
+#output {
+    height:250px;
+    width:40%;
+    float:none;
+    position:top;
+    background-color: rgb(213, 255, 185);
+    border: 1px solid rgba(8, 6, 10, 0);
+
+}
+.description {
+width: 150px;
+font-size: 12px;
+color: #333333;
+font-family: "Open Sans", Helvetica, sans-serif;
+padding: 10px 14px;
+background-color: rgb(213, 255, 185);
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border-radius: 5px;
+border: 1px solid grey;
+}
+.description img {
+width: 200px;
+margin: auto;
+display: block;
+}
